@@ -1,0 +1,48 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+venv/
+backend/.env
+backend/staticfiles/
+backend/.data_store/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+frontend/.env.local
+npm-debug.log*
+
+# Env files — defense in depth. The two exact paths above already cover this
+# repo's real env files; this broader pattern catches any other .env* a
+# contributor creates by hand. The two checked-in templates are named
+# explicitly so this can never accidentally shadow them.
+.env
+.env.*
+!backend/.env.example
+!frontend/.env.local.example
+
+# Secrets / keys, if one is ever dropped locally
+*.pem
+*.key
+*.p12
+
+# Logs, backups, dumps
+*.log
+*.bak
+*.dump
+
+# Internal development history — not for public publication (owner decision:
+# kept locally for reference, never pushed).
+docs/internal/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
