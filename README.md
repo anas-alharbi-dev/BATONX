@@ -6,6 +6,28 @@
 
 ---
 
+## Product Preview
+
+### BATONX
+![BATONX Landing](docs/screenshots/8.png)
+
+### Software Journey
+![Software Journey](docs/screenshots/1.png)
+
+### Data Journey
+![Data Journey](docs/screenshots/2.png)
+
+### Human-in-the-Loop Governance
+![Human-in-the-Loop Governance](docs/screenshots/3.png)
+
+### Project Creation
+![Project Creation](docs/screenshots/6.png)
+
+### Data Project Setup
+![Data Project Setup](docs/screenshots/10.png)
+
+---
+
 ## Overview
 
 BATONX is an orchestration and project-intelligence layer that sits **above** coding and data agents — not a replacement for them. It turns a raw idea or a business question into a structured, traceable project: real requirements, a real architecture, a real plan, real progress tracking, and a real delivery-readiness check — all before (and while) an execution agent like Claude Code, Codex, or Cursor does the actual building.
@@ -202,7 +224,7 @@ Future areas under consideration (not committed, not scheduled):
 
 ## Screenshots
 
-_Screenshots are not yet included in this repository._ See [`docs/screenshots/README.md`](docs/screenshots/README.md) for the planned set and what each should show.
+A selection of screenshots is shown above in [Product Preview](#product-preview). See [`docs/screenshots/README.md`](docs/screenshots/README.md) for the full set of source files and what each shows.
 
 ## Repository Structure
 
