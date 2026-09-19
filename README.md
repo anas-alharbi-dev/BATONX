@@ -140,11 +140,13 @@ This describes the implemented authorization model, not a security certification
 
 ## Tech Stack
 
-**Frontend** — Next.js (App Router), TypeScript, Tailwind CSS, React Query, Framer Motion (Landing only)
-**Backend** — Python, Django, Django REST Framework
-**Database** — PostgreSQL
-**AI Architecture** — a provider-agnostic operation runner with one adapter currently wired (Anthropic); see [`docs/AI_ARCHITECTURE.md`](docs/AI_ARCHITECTURE.md)
-**Testing** — Django's test runner (563 automated backend tests); TypeScript + ESLint + production build on the frontend
+| Layer | Technologies |
+|---|---|
+| **Frontend** | Next.js (App Router), TypeScript, Tailwind CSS, React Query, Framer Motion |
+| **Backend** | Python, Django, Django REST Framework |
+| **Database** | PostgreSQL |
+| **AI Architecture** | Provider-agnostic operation runner with a provider abstraction layer; Anthropic adapter currently implemented |
+| **Testing & Validation** | 563 automated backend tests, TypeScript type checking, ESLint, production build validation |
 
 ## Testing
 
